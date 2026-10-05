@@ -6,32 +6,44 @@
 - Created a **Date dimension and core DAX measures** for the business, and validated key figures to ensure data accuracy.  
 - Applied **Row-Level Security (RLS)** and performed final model validation.  
 
-# Final output: Clean Data Model  
+## Starting Point: Chaotic Data Model  
+ 
+- Many to many relationships 
+- Filters going to both directions
+- No star-schema
+- No sense
 
-## [Download the Power BI file with clean data model](./data_model_project.pbix)
-
-![Clean Data Model](/Images/Clean_Data_Model.png)
-
-# Starting Point: Chaotic Data Model  
-
-## [Download the dataset](./dataset.xlsx)
+### [Download the dataset](./dataset.xlsx)
 
 ![Chaotic Data Model](/Images/0_chaos.png)  
 
-# Data Modeling Process  
+## Final output: Clean Data Model  
+
+- Star-schema  
+- Facts surrounded by dimensions  
+- Right relationships  
+- Filters going to the right direction  
+- Numbers are protected  
+- Everything is friendly and easy to read  
+
+### [Download the Power BI file with clean data model](./data_model_project.pbix)  
+
+![Clean Data Model](/Images/Clean_Data_Model.png)  
+
+## Data Modeling Process  
 
 ![Data Modeling Process](/Images/1_Process.jpg)  
 
-# Rules  
+## Rules  
 ![Rule 1](/Images/2_Rule_1.png)  
 ![Rule 2](/Images/2_Rule_2.jpg)  
 ![Rule 3](/Images/2_Rule_3.jpg)  
 ![Rule 4](/Images/2_Rule_4.jpg)    
 
-# Standards  
+## Standards  
 ![Standards](/Images/3_Standards.png)  
 
-# Polish  
+## Polish  
 ![Polish 1](/Images/4_Polish_1.png)  
 ![Polish 2](/Images/4_Polish_2.png)  
 ![Polish 3](/Images/4_Polish_3.png)  
